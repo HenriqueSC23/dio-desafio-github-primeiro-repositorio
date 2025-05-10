@@ -1,0 +1,34 @@
+Introdução ao Git/GitHub
+
+1- O que qual a diferença de git para GitHub?
+
+git é um sistema criado pelo Linus Torvalds (crador do Linux) para versionar os arquivos do seu projeto de sistema operacional conhecido como Linux.
+
+Já o GitHub é uma plataforma que armazena os diretórios online e faz essa integração com o git, podendo assim fazer o gerenciamento de versões do seu projeto e registra-las na nuvem.
+
+2- Como baixar o git?
+
+é só clicar no link e fazer o download de acordo com seu sistema operacional seja ele Windows, Linux ou MacOS -> https://git-scm.com/downloads
+
+3- Quais são os comandos básicos de Git/GitHub?
+
+Para navegação temos:
+
+1- ls (lista todos os arquivos no seu caminho/diretório), pode se passar "flags" como se fossem propriedades do comando se digitar "ls -a" mostra todos os arquivos, incluindo os ocultos.
+
+2- cd ./caminho-do-arquivo (leva para a pasta escolhida)
+
+3- mkdir nome-do-arquivo (cria uma pasta)
+
+4- rm nome-do-arquivo (exclui/remove o arquivo)
+
+Para comandos do Git/GitHub:
+
+1- git init (inicia um repositório local)
+2- git status (confere o status do repositório, se foi modificado e se esta pronto para fazer o commit)
+3- git config (lista as configurações feitas do git)
+4- git add . ou git add nome-do-arquivo (adiciona os todos os arquivos ou o arquivo específico para seu diretório de trabalho preparando eles para o commit)
+5- git commit -m "mensagem do commig" (aqui você faz o commit do seu arquivo)
+6- git push origin main (push -> "empurra" seus arquivos do repositório local para o repositório remoto)
+7- git pull (pull -> "puxa" os arquivos do repositório remoto para o repositório local)
+*pode ser necessário quando seu repositório remoto não é a versão mais recente do repositório remoto
